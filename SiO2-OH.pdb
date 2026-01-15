@@ -1,0 +1,57 @@
+HETATM    1  Si0 SiO     1       0.000   0.000   0.000  1.00  0.00           S
+HETATM    2  O02 SiO     1      -0.930   0.930  -0.930  1.00  0.00           O
+HETATM    3  O03 SiO     1       0.930  -0.930  -0.930  1.00  0.00           O
+HETATM    4  O04 SiO     1       0.930   0.930   0.930  1.00  0.00           O
+HETATM    5  Si1 SiO     1       1.850   1.850   1.850  1.00  0.00           S
+HETATM    6  O05 SiO     1       2.780   0.930   2.780  1.00  0.00           O
+HETATM    7  O06 SiO     1       0.930   2.780   2.780  1.00  0.00           O
+HETATM    8  O08 SiO     1       2.780   2.780   0.930  1.00  0.00           O
+HETATM    9  Si2 SiO     1       3.700   3.700   0.000  1.00  0.00           S
+HETATM   10  O0A SiO     1       2.780   4.620  -0.930  1.00  0.00           O
+HETATM   11  O0B SiO     1       4.620   2.780  -0.930  1.00  0.00           O
+HETATM   12  O0C SiO     1       4.620   4.620   0.930  1.00  0.00           O
+HETATM   13  Si3 SiO     1       5.550   5.550   1.850  1.00  0.00           S
+HETATM   14  O09 SiO     1       6.470   6.470   0.930  1.00  0.00           O
+HETATM   15  O0F SiO     1       4.620   6.470   2.780  1.00  0.00           O
+HETATM   16  Si4 SiO     1       3.700   7.400   3.700  1.00  0.00           S
+HETATM   17  O0H SiO     1       2.780   6.470   4.620  1.00  0.00           O
+HETATM   18  Si5 SiO     1       1.850   5.550   5.550  1.00  0.00           S
+HETATM   19  H0J SiO     1       0.930   6.470   6.470  1.00  0.00           H
+HETATM   20  H0K SiO     1       2.780   4.620   6.470  1.00  0.00           H
+HETATM   21  O10 SiO     1       0.930   4.620   4.620  1.00  0.00           O
+HETATM   22  O0N SiO     1       6.470   4.620   2.780  1.00  0.00           O
+HETATM   23  Si6 SiO     1       7.400   3.700   3.700  1.00  0.00           S
+HETATM   24  O0P SiO     1       6.470   2.780   4.620  1.00  0.00           O
+HETATM   25  Si7 SiO     1       5.550   1.850   5.550  1.00  0.00           S
+HETATM   26  H0R SiO     1       6.470   0.930   6.470  1.00  0.00           H
+HETATM   27  H0S SiO     1       4.620   2.780   6.470  1.00  0.00           H
+HETATM   28  O11 SiO     1       4.620   0.930   4.620  1.00  0.00           O
+CONECT    1    4    3    2
+CONECT    2    1
+CONECT    3    1
+CONECT    4    5    1
+CONECT    5    4    8    6    7
+CONECT    6    5
+CONECT    7    5
+CONECT    8    9    5
+CONECT    9    8   12   10   11
+CONECT   10    9
+CONECT   11    9
+CONECT   12    9   13
+CONECT   13   14   12   15   22
+CONECT   14   13
+CONECT   15   16   13
+CONECT   16   17   15
+CONECT   17   16   18
+CONECT   18   21   17   19   20
+CONECT   19   18
+CONECT   20   18
+CONECT   21   18
+CONECT   22   23   13
+CONECT   23   24   22
+CONECT   24   23   25
+CONECT   25   24   28   26   27
+CONECT   26   25
+CONECT   27   25
+CONECT   28   25
+END
